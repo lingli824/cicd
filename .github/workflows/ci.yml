@@ -5,7 +5,7 @@ on:
       - master
   pull_request:
 
-  jobs:
+jobs:
 
 #     ______   ______   .__   __. .___________. __  .__   __.  __    __    ______    __    __       _______.     
 #  /      | /  __  \  |  \ |  | |           ||  | |  \ |  | |  |  |  |  /  __  \  |  |  |  |     /       |     
@@ -24,6 +24,7 @@ on:
   build:
     runs-on: ubuntu-latest
     steps:
+
       - name: Checkout
         uses: actions/checkout@v1
 
