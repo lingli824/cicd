@@ -153,6 +153,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: dist
+     
+      - name: Smoke Test
+        run: export TEST_URL=https://codex.academy && npm run smoke 
 
-          
-              
