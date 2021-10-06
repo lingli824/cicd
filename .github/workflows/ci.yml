@@ -46,7 +46,7 @@ jobs:
       - name: Build
         run: npm run build   
 
-       - name: Store Artifact 
+      - name: Store Artifact 
         uses: actions/upload-artifact@v2
         with:
           name: website-dist
