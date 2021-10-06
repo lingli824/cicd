@@ -28,7 +28,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Install Dependencies
+      - name: Install Dependencies (ling test)
         run: npm i
 
       - name: Build
